@@ -1,0 +1,36 @@
+@import '../../../assets/styles/variables';
+
+.footer, a {
+  color: $theme-foreground;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid $theme-stroke;
+}
+
+.footer-start {
+  padding: 16px 24px;
+}
+
+.footer-icon {
+  padding: 16px;
+  text-decoration: none;
+}
+
+.footer-start,
+.footer-icon {
+  border-right: 1px solid $theme-stroke;
+}
+
+.footer-end {
+  padding: 16px 32px;
+  border-left: 1px solid $theme-stroke;
+
+  a {
+    margin-right: 8px;
+    text-decoration: none;
+  }
+}

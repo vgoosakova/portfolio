@@ -1,0 +1,49 @@
+@import '../../../assets/styles/variables';
+
+header {
+  border-bottom: 1px solid $theme-stroke;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.logo {
+  margin-right: 128px;
+  padding: 16px 24px;
+}
+
+.nav-links {
+  display: flex;
+}
+
+.nav-item {
+  padding: 16px 32px;
+  border-left: 1px solid $theme-stroke;
+}
+
+.nav-item:last-child {
+  border-right: 1px solid $theme-stroke;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: $theme-foreground;
+}
+
+.nav-item_active {
+  border-bottom: 2px solid $primary-background;
+}
+
+.nav-link_active {
+  color: $theme-heading-foreground !important;
+}
+
+.contact {
+  margin-left: auto;
+}

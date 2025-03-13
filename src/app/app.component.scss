@@ -1,0 +1,7 @@
+@import '../assets/styles/variables';
+
+.container {
+  border: 1px solid $theme-stroke;
+  border-radius: 8px;
+  background: $theme-background;
+}
