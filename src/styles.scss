@@ -1,1 +1,101 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+@import 'assets/styles/variables';
+@import "remixicon/fonts/remixicon.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Fira Code', monospace;
+  background: $slate-950;
+  color: $theme-foreground;
+  margin: 0;
+  padding: 70px;
+}
+
+p {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+  color: $theme-heading-foreground;
+  margin: 0;
+}
+
+h1 {
+  font-size: 60px;
+  line-height: 110%;
+}
+
+h2 {
+  font-size: 48px;
+  line-height: 120%;
+}
+
+h3 {
+  font-size: 36px;
+  line-height: 130%;
+}
+
+h4 {
+  font-size: 30px;
+  line-height: 140%;
+}
+
+h5 {
+  font-size: 24px;
+  line-height: 140%;
+}
+
+h6 {
+  font-size: 20px;
+  line-height: 150%;
+}
+
+.link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: $theme-link-foreground;
+}
+
+.link:hover {
+  color: $theme-link-hover-foreground;
+}
+
+.text-sm {
+  font-size: 14px;
+  line-height: 140%;
+}
+
+.text-md {
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.text-lg {
+  font-size: 18px;
+  line-height: 150%;
+}
+
+.text-light {
+  font-weight: 300;
+}
+
+.text-secondary-indigo {
+  color: $indigo-500;
+}
+
+.text-secondary-teal {
+  color: $teal-400;
+}

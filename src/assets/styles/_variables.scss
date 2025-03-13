@@ -1,0 +1,167 @@
+// Appearance / Slate
+$slate-50: #f8fafc;
+$slate-100: #f1f5f9;
+$slate-200: #e2e8f0;
+$slate-300: #cad5e2;
+$slate-400: #90a1b9;
+$slate-500: #62748e;
+$slate-600: #45556c;
+$slate-700: #314158;
+$slate-800: #1d293d;
+$slate-900: #0f172b;
+$slate-950: #020618;
+
+// Primary / Orange
+$orange-50: #fff7ed;
+$orange-100: #ffedd4;
+$orange-200: #ffd6a7;
+$orange-300: #ffb86a;
+$orange-400: #ff8904;
+$orange-500: #ff6900;
+$orange-600: #f54900;
+$orange-700: #ca3500;
+$orange-800: #9f2d00;
+$orange-900: #7e2a0c;
+$orange-950: #441306;
+
+// Secondary / Teal
+$teal-50: #f0fdfa;
+$teal-100: #cbfbf1;
+$teal-200: #96f7e4;
+$teal-300: #46ecd5;
+$teal-400: #00d5be;
+$teal-500: #00bba7;
+$teal-600: #009689;
+$teal-700: #00786f;
+$teal-800: #005f5a;
+$teal-900: #0b4f4a;
+$teal-950: #022f2e;
+
+// Secondary / Indigo
+$indigo-50: #eef2ff;
+$indigo-100: #e0e7ff;
+$indigo-200: #c6d2ff;
+$indigo-300: #a3b3ff;
+$indigo-400: #7c86ff;
+$indigo-500: #615fff;
+$indigo-600: #4f39f6;
+$indigo-700: #432dd7;
+$indigo-800: #372aac;
+$indigo-900: #312c85;
+$indigo-950: #1e1a4d;
+
+// Accent / Purple
+$purple-50: #faf5ff;
+$purple-100: #f3e8ff;
+$purple-200: #e9d4ff;
+$purple-300: #dab2ff;
+$purple-400: #c27aff;
+$purple-500: #ad46ff;
+$purple-600: #9810fa;
+$purple-700: #8200db;
+$purple-800: #6e11b0;
+$purple-900: #59168b;
+$purple-950: #3c0366;
+
+// Secondary / Rose
+$rose-50: #fff1f2;
+$rose-100: #ffe4e6;
+$rose-200: #ffccd2;
+$rose-300: #ffa1ad;
+$rose-400: #ff637e;
+$rose-500: #ff2056;
+$rose-600: #ec003f;
+$rose-700: #c60036;
+$rose-800: #a50036;
+$rose-900: #8b0836;
+$rose-950: #4d0218;
+
+// Grey
+$grey-50: #fff;
+$grey-100: #f5f5f5;
+$grey-200: #e5e5e5;
+$grey-300: #d1d5dc;
+$grey-400: #d4d4d4;
+$grey-500: #a1a1a1;
+$grey-600: #737373;
+$grey-700: #525252;
+$grey-800: #404040;
+$grey-900: #171717;
+$grey-950: #0a0a0a;
+
+// Error / Red
+$red-50: #fef2f2;
+$red-100: #ffe2e2;
+$red-200: #ffc9c9;
+$red-300: #ffa2a2;
+$red-400: #ff6467;
+$red-500: #fb2c36;
+$red-600: #e7000b;
+$red-700: #c10007;
+$red-800: #9f0712;
+$red-900: #82181a;
+$red-950: #460809;
+
+// Success / Green
+$green-50: #f0fdf4;
+$green-100: #dcfce7;
+$green-200: #b9f8cf;
+$green-300: #7bf1a7;
+$green-400: #05df72;
+$green-500: #00c950;
+$green-600: #00a63e;
+$green-700: #008235;
+$green-800: #016630;
+$green-900: #0d542b;
+$green-950: #032e15;
+
+// Info / Yellow
+$yellow-50: #fefce8;
+$yellow-100: #fef9c2;
+$yellow-200: #fff085;
+$yellow-300: #ffdf20;
+$yellow-400: #fdc700;
+$yellow-500: #f0b100;
+$yellow-600: #d08700;
+$yellow-700: #a65f00;
+$yellow-800: #894b00;
+$yellow-900: #733e0a;
+$yellow-950: #432004;
+
+// Semantic colors
+$primary-background: $orange-300;
+$theme-backdrop: $slate-950;
+$theme-background: $slate-900;
+$theme-stroke: $slate-700;
+$theme-heading-foreground: $slate-50;
+$theme-foreground: $slate-400;
+$theme-link-foreground: $rose-300;
+$theme-link-hover-foreground: $rose-200;
+
+$semantic-success-background: $green-500;
+$semantic-success-inverted: $slate-950;
+$semantic-success-hover: $green-400;
+$semantic-success-hover-inverted: $slate-950;
+
+$semantic-error-background: $red-500;
+$semantic-error-inverted: $slate-950;
+$semantic-error-hover: $red-400;
+$semantic-error-hover-inverted: $slate-950;
+
+$semantic-warning-background: $yellow-500;
+$semantic-warning-inverted: $slate-950;
+$semantic-warning-hover: $yellow-400;
+$semantic-warning-hover-inverted: $slate-950;
+
+$primary-hover: $orange-200;
+$primary-inverted: $slate-950;
+$primary-hover-inverted: $slate-950;
+
+// Root CSS variables for easy usage
+:root {
+  --primary-color: var(--primitive-orange-400);
+  --secondary-color: var(--primitive-teal-400);
+  --accent-color: var(--primitive-purple-400);
+  --background-color: var(--primitive-slate-900);
+  --text-color: var(--primitive-slate-50);
+}
